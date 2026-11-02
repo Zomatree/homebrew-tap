@@ -1,19 +1,19 @@
 class Ermine < Formula
   desc "Native desktop client for Stoat chat"
   homepage "https://github.com/Zomatree/ermine"
-  version "0.9.0"
+  version "0.10.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Zomatree/ermine/releases/download/v0.9.0/Ermine-aarch64-apple-darwin.tar.xz"
-    sha256 "7193fbe96b9e399bbdd6c756febe53847f651bc36a1e7563f60acf57991f1196"
+    url "https://github.com/Zomatree/ermine/releases/download/v0.10.0/Ermine-aarch64-apple-darwin.tar.xz"
+    sha256 "095546c54116de996d022f7c9742cb197763f8cabfc31fb184a70ba44710a62d"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Zomatree/ermine/releases/download/v0.9.0/Ermine-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a2ba9c72cc53976700cfc380ca854e496dcef0bee2fa8268d76fc8a41645e223"
+      url "https://github.com/Zomatree/ermine/releases/download/v0.10.0/Ermine-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "529306cfda0541bd8457a978778b8abb7e386f803d687b96c44de27f6bac9c73"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Zomatree/ermine/releases/download/v0.9.0/Ermine-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6936d7e2299b1198ee361e26a007a8a27af8e78ab5a433ed23031e477d874578"
+      url "https://github.com/Zomatree/ermine/releases/download/v0.10.0/Ermine-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9f3fc4fb9230210d141a3453c2524573c00ed92c98ff77713e7e4938f087a039"
     end
   end
 
